@@ -65,6 +65,7 @@
     ]
   },
   "scripts": {
+    "create": "node ./lib/createFile.js",
     "dev": "node ./lib/index.js",
     "pretest": "eslint .",
     "test": "jest"
