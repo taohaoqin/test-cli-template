@@ -65,6 +65,7 @@
     ]
   },
   "scripts": {
+    "dev": "node ./lib/index.js",
     "pretest": "eslint .",
     "test": "jest"
   }
