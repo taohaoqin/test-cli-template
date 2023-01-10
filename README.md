@@ -3,7 +3,7 @@
  * @version: 1.0
  * @Author: taohq
  * @Date: 2023-1-6 17:08:00
- * @LastEditors: taohq
+ * @LastEditors: 2023-1-10 9:38:00
 -->
 # 基于 yeoman-generator 封装的脚手架初始化工具，
 用法：
@@ -15,3 +15,5 @@
 6. 执行npm link 后，在其他目录下测试 执行命令行 (测试环节，自己看着办) 失败了用npm unlink卸载
 7. npm publish 发布 (随便)
 
+
+`npm run for`根据templates下的文件夹名称 循环创建lib下没有的执行文件
